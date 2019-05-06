@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WCDBSwift_Example' do
+  pod 'WCDBSwift', :path => '../'
+
+  target 'WCDBSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
